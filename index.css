@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 5px solid red; */
+}
+.textInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  margin: 15vh;
+}
+.userImage {
+  height: 8vh;
+  width: 5vw;
+  box-shadow: 5px 5px 5px black;
+}
+
+.messageText {
+  width: 50vw;
+  height: 10vh;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px black;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.emojiSearchBar {
+  height: 4vh;
+  width: 55vw;
+  border-radius: 30px;
+  padding: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.emojiSearchBtn {
+  height: 6vh;
+  width: 4vw;
+  background-color: inherit;
+  font-size: 20px;
+  /* border: none; */
+}
+.emojiPanel {
+  display: flex;
+  justify-content: space-around;
+  overflow: scroll;
+  margin: 10vh;
+  border: 1px solid white;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px black;
+}
+.gif {
+  height: 18vh;
+  width: 10vw;
+  border-radius: 30px;
+  margin: 11px;
+}
+.hidden {
+  display: none;
+}
+.messageHolder {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin-left: 20vw;
+  margin-bottom: 25px;
+  overflow: scroll;
+  background-color: white;
+  /* border: 5px solid black; */
+  box-shadow: 8px 8px 8px black;
+  padding: 25px;
+}
+.newGif {
+  border-radius: 30px;
+  height: 30vh;
+  width: 20vw;
+}
+
+.post {
+  /* border: 2px solid black; */
+  margin-left: 50vw;
+  background-color: rgb(237, 243, 243);
+  box-shadow: 5px 5px 5px grey;
+  margin: 50px;
+  width: 70vw;
+  height: 70vh;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  font-family: cursive;
+  overflow: scroll;
+}
+.messageList {
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.upper {
+  background-color: rgb(7, 95, 73);
+  position: absolute;
+  width: 100%;
+  /* height: 50%; */
+  top: 0px;
+  left: 0px;
+  border-radius: 30px;
+}
+.app {
+  position: relative;
+  background: linear-gradient(
+    to top left,
+    rgb(0, 128, 122),
+    rgb(240, 240, 227)
+  );
+  /* border: 2px solid red; */
+  margin: 10vh;
+  padding: 25px;
+}
+.emojiBar {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin-left: 18vh;
+  margin-bottom: 10vh;
+}
+
+.goBtn {
+  margin: 25px;
+}
+
+.btn {
+  height: 5vh;
+  width: 8vw;
+  box-shadow: 5px 5px 5px black;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.postBtnHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+html {
+  background-color: rgba(8, 83, 77, 0.6);
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  color: white;
+  font-size: 24px;
+}
+
+.logIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+  color: white;
+  margin: 10vh;
+  font-size: 30px;
+}
+
+/* .name {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+} */
+
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 19px;
+  /* border: 5px solid red; */
+}

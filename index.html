@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>svg icons</title>
+    <script defer src="index.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="logIn">
+      <label for="name" class="label"> Enter your name to log in : </label>
+      <input type="text" id="name" class="name" />
+    </div>
+    <div class="app">
+      <button class="init btn">Post Message!</button>
+
+      <div class="upper hidden">
+        <div class="heading">
+          <div class="welcome">Welcome !</div>
+          <button class="cross btn">X</button>
+        </div>
+        <!-- Text Input -->
+        <div class="textInput">
+          <span><img src="./user.jpg" class="userImage" /></span>
+          <textarea
+            type="text"
+            placeholder="enter your message here!"
+            class="messageText"
+          ></textarea>
+          <span>
+            <button class="okBtn btn">OK!</button>
+          </span>
+        </div>
+        <!-- Search Emoji bar -->
+        <div class="emojiBar">
+          <input
+            type="text"
+            placeholder="search your gif"
+            class="emojiSearchBar"
+          />
+          <!-- emoji search btn -->
+          <button class="search btn goBtn">GO!</button>
+          <button class="emojiSearchBtn">😊</button>
+        </div>
+        <!-- emoji panel -->
+        <div class="emojiPanel"></div>
+        <!-- message holder -->
+        <div class="messageHolder"></div>
+        <div class="postBtnHolder">
+          <button class="postBtn btn">Post!</button>
+        </div>
+      </div>
+      <div class="messageList"></div>
+    </div>
+    <!--     
+    <form class="main">
+      <label>enter text</label>
+      <input type="text" class="input" />
+      <button class="btn">Search!</button>
+    </form>
+    <div class="container"></div>
+    <div class="emojiContainer"></div>
+
+    <button class="emoji">😊</button>
+    <input type="text" class="searchInput" />
+
+    <div class="messageContainer"></div>
+    <button class="post">Post!</button>
+
+    <div class="list"></div> -->
+  </body>
+</html>
