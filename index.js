@@ -1,4 +1,4 @@
-const nameInput = document.querySelector(".name");
+const nameInput = document.querySelector(".input");
 const emojiPanel = document.querySelector(".emojiPanel");
 const emojiSearchBar = document.querySelector(".emojiSearchBar");
 const searchButton = document.querySelector(".search");
